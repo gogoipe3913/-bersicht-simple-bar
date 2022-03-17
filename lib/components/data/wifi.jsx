@@ -77,7 +77,7 @@ export const Widget = () => {
       onClick={toggleWifiOnClick ? onClick : undefined}
       onRightClick={openWifiPreferences}
     >
-      {name}
+      <span className="wifi__name">{name}</span>
     </DataWidget.Widget>
   )
 }
